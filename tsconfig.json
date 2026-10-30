@@ -1,0 +1,25 @@
+{
+  "extends": "primate/tsconfig",
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "client",
+    "config",
+    "views",
+    "components",
+    "routes",
+    "stores",
+    "locales",
+    "templates",
+    "static"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
