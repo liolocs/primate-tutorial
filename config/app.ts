@@ -1,6 +1,8 @@
 import config from "primate/config";
 import react from "@primate/react";
 import tailwind from "@primate/tailwind";
+import svelte from "@primate/svelte";
+import go from "@primate/go";
 
 export default config({
   entrypoints: {
@@ -9,6 +11,7 @@ export default config({
 
   modules: [
     react(),
+
     tailwind({
       content: [
         "./components/**/*.{ts,tsx,jsx}",
@@ -16,5 +19,9 @@ export default config({
         "./views/**/*.{ts,tsx,jsx}",
       ],
     }),
+
+    svelte(),
+
+    go()
   ],
 });
