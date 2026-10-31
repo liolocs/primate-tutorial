@@ -1,0 +1,15 @@
+[
+  {
+    "title": "My first post",
+    "body": "Some body here",
+    "created": {
+      "__type": "datetime",
+      "value": "2026-10-30T13:56:33.351Z"
+    },
+    "updated": {
+      "__type": "datetime",
+      "value": "2026-10-30T13:56:33.351Z"
+    },
+    "id": 0
+  }
+]

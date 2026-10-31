@@ -1,0 +1,13 @@
+diff --git a/package.json b/package.json
+index 9bf31b5e36b3f6e3c9eb7c972e257c5e66be78e2..a107b21c70e8d56a706d7fa07b9e835ebdd98d68 100644
+--- a/package.json
++++ b/package.json
+@@ -32,7 +32,7 @@
+   ],
+   "homepage": "https://primate.run/docs/backend/go",
+   "imports": {
+-    "#vendored/wasm_exec": "./src/private/vendored/wasm_exec.js",
++    "#vendored/wasm_exec": "./lib/private/vendored/wasm_exec.js",
+     "#*": {
+       "@primate/source": "./src/private/*.ts",
+       "default": "./lib/private/*.js"

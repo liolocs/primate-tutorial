@@ -9,6 +9,8 @@
     "jsx": "react-jsx"
   },
   "include": [
+    "schemas",
+    "scripts",
     "client",
     "config",
     "views",

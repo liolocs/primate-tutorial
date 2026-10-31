@@ -10,6 +10,7 @@
   "dependencies": {
     "@base-ui/react": "^1.9.0",
     "@primate/go": "^0.12.0",
+    "@primate/jsondb": "^0.6.0",
     "@primate/react": "^0.23.0",
     "@primate/svelte": "^0.29.0",
     "@primate/tailwind": "^0.11.0",
@@ -26,5 +27,8 @@
   },
   "devDependencies": {
     "typescript": "^7.0.2"
+  },
+  "patchedDependencies": {
+    "@primate/go@0.12.0": "patches/@primate%2Fgo@0.12.0.patch"
   }
 }
